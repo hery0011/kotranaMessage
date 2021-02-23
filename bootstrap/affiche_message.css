@@ -1,0 +1,21 @@
+.message{
+	color: #000080;
+	text-align: center;
+	font-family: Baskerville Old Face;
+}
+.cadre{
+	box-shadow: 0px 0px 5px;
+}
+.nomPrenom{
+	color: #001a33;
+	font-size: 20px;
+}
+.pair{
+	background-color: #66b3ff;
+}
+.impaire{
+	background-color: pink;
+}
+.mail{
+	margin-left: 20px;
+}

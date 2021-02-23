@@ -1,0 +1,23 @@
+#message{
+	/*border:1px solid black;*/
+	box-shadow: 0px 0px 10px black;
+	border-radius: 10px;
+	background-color: white;
+}
+label{
+	color:black;
+}
+#creation{
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px 2px blue;
+}
+.cadre{
+	margin-top: 130px;
+}
+.cadre1{
+	margin-top: 50px;
+}
+input{
+	box-shadow: 2px 2px 2px black;
+}

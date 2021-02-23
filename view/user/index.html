@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../../bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../../bootstrap/insert.css">
+</head>
+<body style="background-color: #e0ebeb">
+	<div class="row cadre">
+		<div class="col-md-3"></div>
+		<div class="col-md-6" id="message">
+			<h1 id="creation">LOGIN</h1>
+
+			<form method="POST" action="../../controller/control_login.php">
+				<div>
+					<label>Mail:</label>
+					<input type="mail" name="mail_user" class="form-control">
+				</div>
+				<div>
+					<label>Password:</label>
+					<input type="password" name="password_user" class="form-control">
+				</div>
+				<div class="mt-4 mb-3">
+					<input type="submit" name="submit" value="se connecter" class="btn btn-primary btn-block">
+				</div>
+				<div class="mb-3">	
+					<a href="insert.html">création compte</a>
+				</div>
+			</form>
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+</body>
+</html>
